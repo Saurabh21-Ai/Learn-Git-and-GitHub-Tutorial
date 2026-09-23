@@ -28,5 +28,7 @@ def factorial (n):     # Factorial function
         return result
 
 
-print (add (5, 3))  # Example usage of the add function
-print (factorial (5))  
+if __name__ == "__main__":
+    print ("How are you?")
+    print (add (5, 3))  # Example usage of the add function
+    print (factorial (5))  
